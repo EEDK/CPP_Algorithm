@@ -1,21 +1,21 @@
 #include <iostream>
 #include <memory>
-#include <array>
+#include <vector>
 #include "SortAlgorithm.h"
 
 using namespace std;
 
 int main() {
-  const int ITEM_SIZE = 10; // 배열의 크기를 정의
+  const int ITEM_SIZE = 20; // 배열의 크기를 정의
 
   unique_ptr<SortAlgorithm> sort_algorithm;
-  array<int, ITEM_SIZE> tmpArr = sort_algorithm->MakeRandArray();
+  vector<int> tmpArr{2, 4, 6, 7, 1, 2, 3, 5};
   for (auto v : tmpArr) {
     cout << v << ", ";
   }
   cout << "\n" << endl;
 
-  sort_algorithm->SelectSort(tmpArr);
+  sort_algorithm->Merge(tmpArr, 0, 3, 7);
   for (auto v : tmpArr) {
     cout << v << ", ";
   }
