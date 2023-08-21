@@ -9,13 +9,13 @@ int main() {
   const int ITEM_SIZE = 20; // 배열의 크기를 정의
 
   unique_ptr<SortAlgorithm> sort_algorithm;
-  vector<int> tmpArr{2, 4, 6, 7, 1, 2, 3, 5};
+  vector<int> tmpArr = sort_algorithm->MakeRandArray(ITEM_SIZE);
   for (auto v : tmpArr) {
     cout << v << ", ";
   }
   cout << "\n" << endl;
 
-  sort_algorithm->Merge(tmpArr, 0, 3, 7);
+  sort_algorithm->MergeSort(tmpArr, 1, ITEM_SIZE);
   for (auto v : tmpArr) {
     cout << v << ", ";
   }

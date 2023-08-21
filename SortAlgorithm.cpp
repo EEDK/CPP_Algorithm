@@ -99,3 +99,13 @@ void SortAlgorithm::Merge(vector<int> &inArray, int p, int q, int r) {
     k = k + 1;
   }
 }
+void SortAlgorithm::MergeSort(vector<int> &inArray, int p, int r) {
+  if (p >= r)
+    return;
+
+  int q = (p + r) / 2;
+  MergeSort(inArray, p, q);
+  MergeSort(inArray, q + 1, r);
+
+  Merge(inArray, p, q, r);
+}
