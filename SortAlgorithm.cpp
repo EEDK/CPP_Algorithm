@@ -16,6 +16,7 @@ array<int, ITEM_SIZE> SortAlgorithm::MakeRandArray() {
 
   return arr;
 }
+
 void SortAlgorithm::InsertSort(array<int, ITEM_SIZE> &inArray) {
 
   for (int i = 2; i < ITEM_SIZE; i++) {
@@ -27,5 +28,26 @@ void SortAlgorithm::InsertSort(array<int, ITEM_SIZE> &inArray) {
       j = j - 1;
     };
     inArray[j + 1] = key;
+  }
+}
+int SortAlgorithm::SumArray(array<int, ITEM_SIZE> inArray) {
+  int sum = 0;
+  for (int i = 1; i < ITEM_SIZE; i++) {
+    sum += inArray[i];
+  }
+
+  return sum;
+}
+void SortAlgorithm::SelectSort(array<int, ITEM_SIZE> &inArray) {
+  for (int i = 1; i < ITEM_SIZE; i++) {
+    int minIdx = i;
+    for (int j = i + 1; j < ITEM_SIZE; j++) {
+      if (inArray[minIdx] > inArray[j]) {
+        minIdx = j;
+      }
+    }
+    int tmp = inArray[i];
+    inArray[i] = inArray[minIdx];
+    inArray[minIdx] = tmp;
   }
 }

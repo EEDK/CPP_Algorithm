@@ -10,9 +10,13 @@ int main() {
 
   unique_ptr<SortAlgorithm> sort_algorithm;
   array<int, ITEM_SIZE> tmpArr = sort_algorithm->MakeRandArray();
-  sort_algorithm->InsertSort(tmpArr);
+  for (auto v : tmpArr) {
+    cout << v << ", ";
+  }
+  cout << "\n" << endl;
 
-  for(auto v : tmpArr){
+  sort_algorithm->SelectSort(tmpArr);
+  for (auto v : tmpArr) {
     cout << v << ", ";
   }
 

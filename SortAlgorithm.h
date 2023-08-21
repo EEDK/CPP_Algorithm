@@ -13,7 +13,12 @@ class SortAlgorithm {
 
  public:
   array<int, ITEM_SIZE> MakeRandArray();
-  void InsertSort(array<int, ITEM_SIZE>& inArray);
+  void InsertSort(array<int, ITEM_SIZE> &inArray);
+  void SelectSort(array<int, ITEM_SIZE> &inArray);
+
+ private:
+  int SumArray(array<int, ITEM_SIZE> inArray);
+  void Swap(int &num1, int &num2);
 
 };
 
