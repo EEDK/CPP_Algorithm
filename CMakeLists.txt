@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Algorithm main.cpp
         SortAlgorithm.h
-        SortAlgorithm.cpp)
+        SortAlgorithm.cpp
+        DivideAndConquer.cpp
+        DivideAndConquer.h)

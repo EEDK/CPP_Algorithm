@@ -1,23 +1,25 @@
 #include <iostream>
 #include <memory>
 #include <vector>
-#include "SortAlgorithm.h"
+#include "DivideAndConquer.h"
 
 using namespace std;
 
 int main() {
   const int ITEM_SIZE = 20; // 배열의 크기를 정의
 
-  unique_ptr<SortAlgorithm> sort_algorithm;
-  vector<int> tmpArr = sort_algorithm->MakeRandArray(ITEM_SIZE);
-  for (auto v : tmpArr) {
-    cout << v << ", ";
-  }
-  cout << "\n" << endl;
+  unique_ptr<DivideAndConquer> divide_and_conquer;
 
-  sort_algorithm->MergeSort(tmpArr, 1, ITEM_SIZE);
-  for (auto v : tmpArr) {
-    cout << v << ", ";
+  vector<vector<int>> arrayA{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+  vector<vector<int>> arrayB{{4, 1, 2}, {5, 1, 3}, {7, 5, 0}};
+  vector<vector<int>> arrayC{{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
+  divide_and_conquer->MatrixMultiply(arrayA, arrayB, arrayC, 3);
+
+  for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+      cout << arrayC[i][j] << ", ";
+    }
+    cout << "\n";
   }
 
   return 0;

@@ -46,6 +46,16 @@ void SortAlgorithm::SelectSort(vector<int> &inArray) {
     inArray[minIdx] = tmp;
   }
 }
+void SortAlgorithm::MergeSort(vector<int> &inArray, int p, int r) {
+  if (p >= r)
+    return;
+
+  int q = (p + r) / 2;
+  MergeSort(inArray, p, q);
+  MergeSort(inArray, q + 1, r);
+
+  Merge(inArray, p, q, r);
+}
 
 int SortAlgorithm::SumArray(vector<int> &inArray) {
   int sum = 0;
@@ -98,14 +108,4 @@ void SortAlgorithm::Merge(vector<int> &inArray, int p, int q, int r) {
     j = j + 1;
     k = k + 1;
   }
-}
-void SortAlgorithm::MergeSort(vector<int> &inArray, int p, int r) {
-  if (p >= r)
-    return;
-
-  int q = (p + r) / 2;
-  MergeSort(inArray, p, q);
-  MergeSort(inArray, q + 1, r);
-
-  Merge(inArray, p, q, r);
 }

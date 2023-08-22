@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Algorithm::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Algorithm-Debug-04d2b913011a5c35f1ea.json",
+					"jsonFile" : "target-Algorithm-Debug-be3b289be8db3d9559d0.json",
 					"name" : "Algorithm",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/workspace/CPP_Algorithm/cmake-build-debug",
-		"source" : "D:/workspace/CPP_Algorithm"
+		"build" : "D:/Workspace/CLang/Algorithm/cmake-build-debug",
+		"source" : "D:/Workspace/CLang/Algorithm"
 	},
 	"version" : 
 	{
