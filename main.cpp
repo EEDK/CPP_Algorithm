@@ -10,14 +10,28 @@ int main() {
 
   unique_ptr<DivideAndConquer> divide_and_conquer;
 
-  vector<vector<int>> arrayA{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-  vector<vector<int>> arrayB{{4, 1, 2}, {5, 1, 3}, {7, 5, 0}};
-  vector<vector<int>> arrayC{{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
-  divide_and_conquer->MatrixMultiply(arrayA, arrayB, arrayC, 3);
+  vector<vector<int>> arrayA{{1, 2, 3, 4}, {4, 5, 6, 1}, {7, 8, 1, 2}, {1, 2, 3, 4}};
+  vector<vector<int>> arrayB{{1, 2, 3, 4}, {4, 5, 6, 1}, {7, 8, 1, 3}, {1, 2, 3, 4}};
+  vector<vector<int>> arrayC(4, vector<int>(4));
 
-  for (int i = 0; i < 3; i++) {
-    for (int j = 0; j < 3; j++) {
+  divide_and_conquer->MatrixMultiply(arrayA, arrayB, arrayC, 4);
+
+  for (int i = 0; i < 4; i++) {
+    for (int j = 0; j < 4; j++) {
       cout << arrayC[i][j] << ", ";
+    }
+    cout << "\n";
+  }
+
+  cout << "\n";
+
+  vector<vector<int>> arrayD(4, vector<int>(4));
+
+  divide_and_conquer->MatrixMultiplyRecursive(arrayA, arrayB, arrayD, 4);
+
+  for (int i = 0; i < 4; i++) {
+    for (int j = 0; j < 4; j++) {
+      cout << arrayD[i][j] << ", ";
     }
     cout << "\n";
   }
