@@ -6,20 +6,13 @@
 using namespace std;
 
 int main() {
-  const int ITEM_SIZE = 20; // 배열의 크기를 정의
-
   unique_ptr<DivideAndConquer> divide_and_conquer;
 
-  vector<vector<int>> arrayA{{1, 2, 3, 4}, {4, 5, 6, 1}, {7, 8, 1, 2}, {1, 2, 3, 4}};
-  vector<vector<int>> arrayB{{1, 2, 3, 4}, {4, 5, 6, 1}, {7, 8, 1, 3}, {1, 2, 3, 4}};
+  vector<int> a = {-199999, 13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7};
+  vector<int> tmp = divide_and_conquer->FindMaximumSubArray(a, 1, 16);
 
-  vector<vector<int>> arrayC = divide_and_conquer->SquareMatrixMultiplyRecursive(arrayA, arrayB);
-
-  for (int i = 0; i < 4; i++) {
-    for (int j = 0; j < 4; j++) {
-      cout << arrayC[i][j] << ", ";
-    }
-    cout << "\n";
+  for (auto it : tmp) {
+    cout << it << ", ";
   }
 
   return 0;

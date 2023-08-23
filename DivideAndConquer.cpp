@@ -101,4 +101,53 @@ vector<vector<int>> DivideAndConquer::AddMatrices(const vector<vector<int>> &A, 
 
   return result;
 }
+vector<int> DivideAndConquer::FindMaxCrossingSubArray(vector<int> A, int low, int mid, int high) {
+  int leftSum = -32768;
+  int maxLeft;
+  int sum = 0;
+  for (int i = mid; i >= low; i--) {
+    sum = sum + A[i];
+    if (sum > leftSum) {
+      leftSum = sum;
+      maxLeft = i;
+    }
+  }
+
+  int rightSum = -32768;
+  int maxRight;
+
+  sum = 0;
+  for (int j = mid + 1; j < high; j++) {
+    sum = sum + A[j];
+    if (sum > rightSum) {
+      rightSum = sum;
+      maxRight = j;
+    }
+  }
+
+  vector<int> result;
+  result.push_back(maxLeft);
+  result.push_back(maxRight);
+  result.push_back(leftSum + rightSum);
+
+  return result;
+}
+vector<int> DivideAndConquer::FindMaximumSubArray(vector<int> A, int low, int high) {
+  if (high == low) {
+    return vector<int>{low, high, A[low]};
+  } else {
+    int mid = (low + high) / 2;
+    vector<int> left = FindMaximumSubArray(A, low, mid);
+    vector<int> right = FindMaximumSubArray(A, mid + 1, high);
+    vector<int> cross = FindMaxCrossingSubArray(A, low, mid, high);
+
+    if (left[2] >= right[2] && left[2] >= cross[2]) {
+      return left;
+    } else if (right[2] >= left[2] && right[2] >= cross[2]) {
+      return right;
+    } else {
+      return cross;
+    }
+  }
+}
 
