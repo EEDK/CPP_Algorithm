@@ -10,21 +10,11 @@
 using namespace std;
 class DivideAndConquer {
  public:
-  void MatrixMultiply(vector<vector<int>> A, vector<vector<int>> B, vector<vector<int>> &C, int n);
-  void MatrixMultiplyRecursive(vector<vector<int>> &A,
-                               vector<vector<int>> &B,
-                               vector<vector<int>> &C,
-                               int n,
-                               int row_A,
-                               int col_A,
-                               int row_B,
-                               int col_B,
-                               int row_C,
-                               int col_C);
-  void MatrixMultiplyRecursive(vector<vector<int>> &A,
-                               vector<vector<int>> &B,
-                               vector<vector<int>> &C,
-                               int n);
+  vector<vector<int>> MatrixMultiply(vector<vector<int>> A, vector<vector<int>> B);
+  vector<vector<int>> SquareMatrixMultiplyRecursive(vector<vector<int>> A, vector<vector<int>> B);
 
+ private:
+  vector<vector<int>> SubtractMatrices(const vector<vector<int>> &A, const vector<vector<int>> &B);
+  vector<vector<int>> AddMatrices(const vector<vector<int>> &A, const vector<vector<int>> &B);
 };
 #endif //ALGORITHM__DIVIDEANDCONQUER_H_
