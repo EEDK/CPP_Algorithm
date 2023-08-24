@@ -11,8 +11,10 @@ using namespace std;
 
 class HeapSort {
  public:
-  void MaxHeapify(vector<int> &A, int i);
+  void Sort(vector<int> &A);
  private:
+  void BuildMaxHeap(vector<int> &A);
+  void MaxHeapify(vector<int> &A, int i);
   void Exchange(vector<int> &A, int targetA, int targetB);
 
   inline int Parent(int i) { return i / 2; }
