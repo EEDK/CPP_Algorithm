@@ -1,15 +1,15 @@
 #include <iostream>
 #include <memory>
 #include <vector>
-#include "HeapSort.h"
+#include "QuickSort.h"
 
 using namespace std;
 
 int main() {
-  unique_ptr<HeapSort> heap_sort;
+  unique_ptr<QuickSort> quick_sort;
 
   vector<int> a = {-199999, 4, 1, 3, 2, 16, 9, 10, 14, 8, 7};
-  heap_sort->Sort(a);
+  quick_sort->Sort(a, 1, 10);
 
   for (auto it : a) {
     cout << it << ", ";

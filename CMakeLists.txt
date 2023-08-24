@@ -9,4 +9,6 @@ add_executable(Algorithm main.cpp
         DivideAndConquer.cpp
         DivideAndConquer.h
         HeapSort.cpp
-        HeapSort.h)
+        HeapSort.h
+        QuickSort.cpp
+        QuickSort.h)
