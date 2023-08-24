@@ -125,13 +125,11 @@ vector<int> DivideAndConquer::FindMaxCrossingSubArray(vector<int> A, int low, in
     }
   }
 
-  vector<int> result;
-  result.push_back(maxLeft);
-  result.push_back(maxRight);
-  result.push_back(leftSum + rightSum);
+  vector<int> result{maxLeft, maxRight, leftSum + rightSum};
 
   return result;
 }
+
 vector<int> DivideAndConquer::FindMaximumSubArray(vector<int> A, int low, int high) {
   if (high == low) {
     return vector<int>{low, high, A[low]};

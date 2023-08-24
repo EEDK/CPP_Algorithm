@@ -7,4 +7,6 @@ add_executable(Algorithm main.cpp
         SortAlgorithm.h
         SortAlgorithm.cpp
         DivideAndConquer.cpp
-        DivideAndConquer.h)
+        DivideAndConquer.h
+        HeapSort.cpp
+        HeapSort.h)
