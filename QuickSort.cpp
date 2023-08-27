@@ -3,6 +3,9 @@
 //
 
 #include "QuickSort.h"
+#include <cstdlib>
+#include <ctime>
+
 void QuickSort::Sort(vector<int> &A, int p, int r) {
   if (p < r) {
     int q = Partition(A, p, r);
@@ -27,4 +30,17 @@ void QuickSort::Exchange(vector<int> &A, int targetA, int targetB) {
   int tmp = A[targetA];
   A[targetA] = A[targetB];
   A[targetB] = tmp;
+}
+int QuickSort::RandomizedPartition(vector<int> &A, int p, int r) {
+  int i = rand() % (r - p + 1) + p;
+  Exchange(A, r, i);
+
+  return Partition(A, p, r);
+}
+void QuickSort::RandomizedSort(vector<int> &A, int p, int r) {
+  if (p < r) {
+    int q = RandomizedPartition(A, p, r);
+    RandomizedSort(A, p, q - 1);
+    RandomizedSort(A, q + 1, r);
+  }
 }

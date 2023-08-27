@@ -11,10 +11,13 @@ using namespace std;
 class QuickSort {
  public:
   void Sort(vector<int> &A, int p, int r);
+  void RandomizedSort(vector<int> &A, int p, int r);
 
  private:
   int Partition(vector<int> &A, int p, int r);
   void Exchange(vector<int> &A, int targetA, int targetB);
+
+  int RandomizedPartition(vector<int> &A, int p, int r);
 
 };
 
