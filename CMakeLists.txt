@@ -11,4 +11,7 @@ add_executable(Algorithm main.cpp
         HeapSort.cpp
         HeapSort.h
         QuickSort.cpp
-        QuickSort.h)
+        QuickSort.h
+        Ch8/LinearSort.cpp
+        Ch8/LinearSort.h
+        Ch8/LinearSort.h)
