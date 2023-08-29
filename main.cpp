@@ -8,7 +8,7 @@ using namespace std;
 int main() {
   unique_ptr<LinearSort> linear_sort;
 
-  vector<int> a = {170, 45, 75, 90, 802, 24, 2, 66};
+  vector<int> a = {-1999, 170, 45, 75, 90, 802, 24, 2, 66};
 
   linear_sort->RadixSort(a);
 
