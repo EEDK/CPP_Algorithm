@@ -14,4 +14,6 @@ add_executable(Algorithm main.cpp
         QuickSort.h
         Ch8/LinearSort.cpp
         Ch8/LinearSort.h
-        Ch8/LinearSort.h)
+        Ch8/LinearSort.h
+        Ch9/OrderStatistic.cpp
+        Ch9/OrderStatistic.h)
