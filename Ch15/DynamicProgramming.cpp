@@ -4,18 +4,16 @@
 
 #include "DynamicProgramming.h"
 #include <climits>
-const int INF = INT_MIN;
 
-int DynamicProgramming::CutRod(vector<int> p, int n) {
-  if (n == 0) {
+int DynamicProgramming::Max(int a, int b) { return (a > b) ? a : b; }
+
+int DynamicProgramming::CutRod(int prices[], int n) {
+  if (n <= 0) {
     return 0;
   }
-  int q = -INF;
+  int q = INT_MIN;
   for (int i = 1; i <= n; i++) {
-    int tempQ = p[i] + CutRod(p, n - 1);
-    if (tempQ > q) {
-      q = tempQ;
-    }
+    q = Max(q, prices[i] + CutRod(prices, n - i - 1));
   }
 
   return q;

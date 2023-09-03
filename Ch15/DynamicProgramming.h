@@ -9,8 +9,10 @@
 using namespace std;
 class DynamicProgramming {
  public:
-  int CutRod(vector<int> p, int n);
+  int CutRod(int prices[], int n);
 
+ private:
+  int Max(int a, int b);
 };
 
 #endif //ALGORITHM_CH15_DYNAMICPROGRAMMING_H_
