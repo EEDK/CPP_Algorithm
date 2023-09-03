@@ -12,9 +12,8 @@ int DynamicProgramming::CutRod(int prices[], int n) {
     return 0;
   }
   int q = INT_MIN;
-  for (int i = 1; i <= n; i++) {
-    q = Max(q, prices[i] + CutRod(prices, n - i - 1));
+  for (int i = 0; i < n; i++) {
+    q = max(q, prices[i] + CutRod(prices, n - i - 1));
   }
-
   return q;
 }

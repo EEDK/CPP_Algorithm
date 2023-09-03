@@ -8,9 +8,9 @@ using namespace std;
 int main() {
   unique_ptr<DynamicProgramming> dynamic_programming;
 
-  int a[] = {-1999, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
+  int a[] = {1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
 
-  cout << dynamic_programming->CutRod(a, 10);
+  cout << dynamic_programming->CutRod(a, 3);
 
   return 0;
 }
