@@ -16,4 +16,8 @@ add_executable(Algorithm main.cpp
         Ch8/LinearSort.h
         Ch8/LinearSort.h
         Ch9/OrderStatistic.cpp
-        Ch9/OrderStatistic.h)
+        Ch9/OrderStatistic.h
+        Ch10/DataStruct.cpp
+        Ch10/DataStruct.h
+        Ch15/DynamicProgramming.cpp
+        Ch15/DynamicProgramming.h)
