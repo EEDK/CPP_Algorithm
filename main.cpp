@@ -10,7 +10,7 @@ int main() {
 
   int a[] = {1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
 
-  cout << dynamic_programming->CutRod(a, 3);
+  cout << dynamic_programming->MemoizedCutRod(a, 3);
 
   return 0;
 }
