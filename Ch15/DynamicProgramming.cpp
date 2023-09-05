@@ -6,6 +6,7 @@
 #include <climits>
 
 using namespace std;
+
 int DynamicProgramming::Max(int a, int b) { return (a > b) ? a : b; }
 
 int DynamicProgramming::CutRod(int prices[], int n) {
@@ -27,6 +28,7 @@ int DynamicProgramming::MemoizedCutRod(int p[], int n) {
 
   return MemoizedCutRodAux(p, n, r);
 }
+
 int DynamicProgramming::MemoizedCutRodAux(int p[], int n, int r[]) {
   if (r[n] >= 0)
     return r[n];
@@ -38,7 +40,22 @@ int DynamicProgramming::MemoizedCutRodAux(int p[], int n, int r[]) {
     for (int i = 0; i < n; i++)
       q = max(q, p[i] + MemoizedCutRodAux(p, n - i - 1, r));
   }
-  
+
   r[n] = q;
   return q;
+}
+
+int DynamicProgramming::BottomUPCutRod(int *p, int n) {
+  int r[n + 1];
+  r[0] = 0;
+  int q;
+  for (int j = 1; j <= n; j++) {
+    q = INT_MIN;
+    for (int i = 0; i < j; i++) {
+      q = max(q, p[i] + r[j - i - 1]);
+    }
+    r[j] = q;
+  }
+
+  return r[n];
 }

@@ -11,6 +11,7 @@ class DynamicProgramming {
  public:
   int CutRod(int prices[], int n);
   int MemoizedCutRod(int p[], int n);
+  int BottomUPCutRod(int p[], int n);
 
  private:
   int Max(int a, int b);
