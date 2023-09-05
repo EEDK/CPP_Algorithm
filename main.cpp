@@ -10,7 +10,7 @@ int main() {
 
   int a[] = {1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
 
-  dynamic_programming->PrintCutRodSolution(a, 9);
+  cout << dynamic_programming->FibonacciNumber(10) << endl;
 
   return 0;
 }

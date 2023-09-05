@@ -88,4 +88,20 @@ void DynamicProgramming::PrintCutRodSolution(int p[], int n) {
     n = n - s[n];
   }
 }
+int DynamicProgramming::FibonacciNumber(int n) {
+  int S[n + 1];
+
+  S[0] = 0;
+  S[1] = 1;
+
+  FibonacciNumberDynamic(n, S);
+
+  return S[n];
+}
+
+void DynamicProgramming::FibonacciNumberDynamic(int n, int *s) {
+  for (int i = 2; i <= n; i++) {
+    s[i] = s[i - 2] + s[i - 1];
+  }
+}
 

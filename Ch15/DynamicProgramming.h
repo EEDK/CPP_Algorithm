@@ -14,10 +14,14 @@ class DynamicProgramming {
   int BottomUPCutRod(int p[], int n);
   void PrintCutRodSolution(int p[], int n);
 
+  int FibonacciNumber(int n);
+
  private:
   int Max(int a, int b);
   int MemoizedCutRodAux(int p[], int n, int r[]);
+  
   void ExtendBottomUpCutRod(int p[], int n, int r[], int s[]);
+  void FibonacciNumberDynamic(int n, int s[]);
 
 };
 
