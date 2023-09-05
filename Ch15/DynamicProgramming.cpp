@@ -4,6 +4,7 @@
 
 #include "DynamicProgramming.h"
 #include <climits>
+#include <iostream>
 
 using namespace std;
 
@@ -59,3 +60,32 @@ int DynamicProgramming::BottomUPCutRod(int *p, int n) {
 
   return r[n];
 }
+
+void DynamicProgramming::ExtendBottomUpCutRod(int p[], int n, int r[], int s[]) {
+  int q;
+
+  r[0] = 0;
+  s[0] = 0;
+  for (int j = 1; j <= n; j++) {
+    q = INT_MIN;
+    for (int i = 1; i <= j; i++) {
+      if (q < (p[i - 1] + r[j - i])) {
+        q = p[i - 1] + r[j - i];
+        s[j] = i;
+      }
+    }
+    r[j] = q;
+  }
+}
+
+void DynamicProgramming::PrintCutRodSolution(int p[], int n) {
+  int r[n + 1];
+  int s[n + 2];
+
+  ExtendBottomUpCutRod(p, n, r, s);
+  while (n > 0) {
+    cout << "cut(s) : " << s[n] << ", max obtainable profit is " << r[s[n]] << endl;
+    n = n - s[n];
+  }
+}
+
