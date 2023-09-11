@@ -1,16 +1,10 @@
 #include <iostream>
 #include <memory>
-#include <vector>
-#include "Ch15/DynamicProgramming.h"
+#include "Ch12/BinaryTree.h"
 
 using namespace std;
-
 int main() {
-  unique_ptr<DynamicProgramming> dynamic_programming;
-
-  int a[] = {1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
-
-  cout << dynamic_programming->FibonacciNumber(10) << endl;
+  unique_ptr<BinaryTree> BinaryTree;
 
   return 0;
 }

@@ -20,4 +20,6 @@ add_executable(Algorithm main.cpp
         Ch10/DataStruct.cpp
         Ch10/DataStruct.h
         Ch15/DynamicProgramming.cpp
-        Ch15/DynamicProgramming.h)
+        Ch15/DynamicProgramming.h
+        Ch12/BinaryTree.cpp
+        Ch12/BinaryTree.h)
