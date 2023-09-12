@@ -13,8 +13,12 @@ class BinaryTree {
  public:
   BinaryTree();
   Node *getRoot();
+
   void Insert(int key);
+  void Preorder(Node *p);
   void Inorder(Node *p);
+  void Postorder(Node *p);
+
   Node *Search(int key);
 };
 #endif //ALGORITHM_CH12_BINARYTREE_H_

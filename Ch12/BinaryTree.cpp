@@ -76,3 +76,17 @@ Node *BinaryTree::Search(int key) {
   }
   return nullptr;
 }
+void BinaryTree::Preorder(Node *p) {
+  if (p) {
+    cout << p->data << ", " << flush;
+    Preorder(p->lchild);
+    Preorder(p->rchild);
+  }
+}
+void BinaryTree::Postorder(Node *p) {
+  if (p) {
+    Postorder(p->lchild);
+    Postorder(p->rchild);
+    cout << p->data << ", " << flush;
+  }
+}
