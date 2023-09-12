@@ -22,4 +22,5 @@ add_executable(Algorithm main.cpp
         Ch15/DynamicProgramming.cpp
         Ch15/DynamicProgramming.h
         Ch12/BinaryTree.cpp
-        Ch12/BinaryTree.h)
+        Ch12/BinaryTree.h
+        Ch12/Node.h)

@@ -4,19 +4,17 @@
 
 #ifndef ALGORITHM_CH12_BINARYTREE_H_
 #define ALGORITHM_CH12_BINARYTREE_H_
+#include "Node.h"
 
 class BinaryTree {
- public:
-  struct Tree {
-    int key;
-    Tree *Left;
-    Tree *Right;
-  };
-
-  void InorderTreeWalk(Tree *x);
-
  private:
-  Tree *Root;
-};
+  Node *root;
 
+ public:
+  BinaryTree();
+  Node *getRoot();
+  void Insert(int key);
+  void Inorder(Node *p);
+  Node *Search(int key);
+};
 #endif //ALGORITHM_CH12_BINARYTREE_H_
