@@ -9,6 +9,7 @@ class Node {
   Node *lchild;
   int data;
   Node *rchild;
+  Node *parent;
 };
 
 #endif //ALGORITHM_CH12_NODE_H_

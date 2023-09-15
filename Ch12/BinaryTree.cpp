@@ -27,6 +27,8 @@ void BinaryTree::Insert(int key) {
     p->data = key;
     p->lchild = nullptr;
     p->rchild = nullptr;
+    p->parent = nullptr;
+
     root = p;
     return;
   }
@@ -47,6 +49,7 @@ void BinaryTree::Insert(int key) {
   p->data = key;
   p->lchild = nullptr;
   p->rchild = nullptr;
+  p->parent = r;
 
   if (key < r->data) {
     r->lchild = p;
@@ -90,3 +93,63 @@ void BinaryTree::Postorder(Node *p) {
     cout << p->data << ", " << flush;
   }
 }
+
+// Node -> Root
+Node *BinaryTree::Minimum(Node *Root) {
+
+  while (Root->lchild != nullptr) {
+    Root = Root->lchild;
+  }
+  return Root;
+}
+Node *BinaryTree::Maximum(Node *Root) {
+  while (Root->rchild != nullptr) {
+    Root = Root->rchild;
+  }
+
+  return Root;
+}
+Node *BinaryTree::TreeSuccessor(Node *x) {
+  if (x->rchild != nullptr)
+    return Minimum(x->rchild);
+
+  Node *y = x->parent;
+  while (y != nullptr && x == y->rchild) {
+    x = y;
+    y = y->parent;
+  }
+
+  return y;
+}
+void BinaryTree::TransPlant(Node *u, Node *v) {
+  if (u->parent == nullptr)
+    root = v;
+  else if (u == u->parent->lchild)
+    u->parent->lchild = v;
+  else
+    u->parent->rchild = v;
+
+  if (v != nullptr)
+    v->parent = u->parent;
+}
+
+void BinaryTree::Delete(Node *z) {
+  if (z->lchild == nullptr)
+    TransPlant(z, z->rchild);
+  else if (z->rchild == nullptr)
+    TransPlant(z, z->lchild);
+  else {
+    Node *y = Minimum(z->rchild);
+    if (y->parent != z) {
+      TransPlant(y, y->rchild);
+      y->rchild = z->rchild;
+      y->rchild->parent = y;
+    }
+    TransPlant(z, y);
+    y->lchild = z->lchild;
+    y->lchild->parent = y;
+  }
+
+  delete z;
+}
+
