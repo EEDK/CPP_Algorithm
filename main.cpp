@@ -1,25 +1,18 @@
 #include <iostream>
 #include <memory>
-#include "Ch12/BinaryTree.h"
+#include "Ch16/Greedy.h"
 
 using namespace std;
 int main() {
-  unique_ptr<BinaryTree> binaryTree = make_unique<BinaryTree>();
+  unique_ptr<Greedy> greedy = make_unique<Greedy>();
 
-  binaryTree->Insert(10);
-  binaryTree->Insert(90);
-  binaryTree->Insert(20);
-  binaryTree->Insert(80);
-  binaryTree->Insert(30);
-  binaryTree->Insert(70);
+  vector<int> S{1, 3, 0, 5, 3, 5, 6, 7, 8, 2, 12};
+  vector<int> F{4, 5, 6, 7, 9, 9, 10, 11, 12, 14, 16};
 
-  cout << "BST Min : " << binaryTree->Minimum(binaryTree->getRoot())->data << endl;
-  cout << "BST Max : " << binaryTree->Maximum(binaryTree->getRoot())->data << endl;
-  cout << "20 Successor : " << binaryTree->TreeSuccessor(binaryTree->Search(20))->data << endl;
-  cout << "30 Parent : " << binaryTree->Search(30)->parent->data << endl;
-  binaryTree->Delete(binaryTree->Search(30));
-  if (binaryTree->Search(30) == nullptr) {
-    cout << " Not Found " << endl;
+  vector<int> Result = greedy->GreedyActivitySelector(S, F);
+
+  for (auto it : Result) {
+    cout << it << ", ";
   }
 
   return 0;
