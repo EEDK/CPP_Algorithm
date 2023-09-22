@@ -28,4 +28,6 @@ add_executable(Algorithm main.cpp
         Ch16/Greedy.h
         Ch16/Huffman.cpp
         Ch16/Huffman.h
+        Ch22/Graph.cpp
+        Ch22/Graph.h
 )
