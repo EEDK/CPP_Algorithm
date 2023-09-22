@@ -25,4 +25,7 @@ add_executable(Algorithm main.cpp
         Ch12/BinaryTree.h
         Ch12/Node.h
         Ch16/Greedy.cpp
-        Ch16/Greedy.h)
+        Ch16/Greedy.h
+        Ch16/Huffman.cpp
+        Ch16/Huffman.h
+)
