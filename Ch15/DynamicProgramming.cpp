@@ -5,6 +5,7 @@
 #include "DynamicProgramming.h"
 #include <climits>
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -104,4 +105,24 @@ void DynamicProgramming::FibonacciNumberDynamic(int n, int *s) {
     s[i] = s[i - 2] + s[i - 1];
   }
 }
+
+int DynamicProgramming::LCSLength(string X, string Y) {
+  int m = X.length();
+  int n = Y.length();
+
+  vector<std::vector<int>> dp(m + 1, vector<int>(n + 1, 0));
+
+  for (int i = 1; i <= m; i++) {
+    for (int j = 1; j <= n; j++) {
+      if (X[i - 1] == Y[j - 1]) {
+        dp[i][j] = dp[i - 1][j - 1] + 1;
+      } else {
+        dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+      }
+    }
+  }
+
+  return dp[m][n];
+}
+
 

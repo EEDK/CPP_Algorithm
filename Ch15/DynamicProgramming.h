@@ -5,6 +5,7 @@
 #ifndef ALGORITHM_CH15_DYNAMICPROGRAMMING_H_
 #define ALGORITHM_CH15_DYNAMICPROGRAMMING_H_
 #include <vector>
+#include <string>
 
 using namespace std;
 class DynamicProgramming {
@@ -16,12 +17,14 @@ class DynamicProgramming {
 
   int FibonacciNumber(int n);
 
+  int LCSLength(string X, string Y);
+
  private:
   int Max(int a, int b);
   int MemoizedCutRodAux(int p[], int n, int r[]);
   void ExtendBottomUpCutRod(int p[], int n, int r[], int s[]);
   void FibonacciNumberDynamic(int n, int s[]);
-  
+
 };
 
 #endif //ALGORITHM_CH15_DYNAMICPROGRAMMING_H_
