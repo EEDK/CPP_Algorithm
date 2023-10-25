@@ -19,6 +19,8 @@ class DynamicProgramming {
 
   int LCSLength(string X, string Y);
 
+  int LIS(vector<int> inputs);
+
  private:
   int Max(int a, int b);
   int MemoizedCutRodAux(int p[], int n, int r[]);

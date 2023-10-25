@@ -110,7 +110,7 @@ int DynamicProgramming::LCSLength(string X, string Y) {
   int m = X.length();
   int n = Y.length();
 
-  vector<std::vector<int>> dp(m + 1, vector<int>(n + 1, 0));
+  vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
 
   for (int i = 1; i <= m; i++) {
     for (int j = 1; j <= n; j++) {
@@ -123,6 +123,21 @@ int DynamicProgramming::LCSLength(string X, string Y) {
   }
 
   return dp[m][n];
+}
+
+int DynamicProgramming::LIS(vector<int> inputs) {
+  int n = inputs.size();
+  vector<int> dp(n, 1);
+
+  for (int i = n - 1; i >= 0; i--) {
+    for (int j = i; j < n; j++) {
+      if (inputs[j] > inputs[i]) {
+        dp[i] = max(dp[i], 1 + dp[j]);
+      }
+    }
+  }
+
+  return *max_element(dp.begin(), dp.end());
 }
 
 

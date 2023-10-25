@@ -7,6 +7,6 @@ using namespace std;
 int main() {
   DynamicProgramming dynamic_programming;
 
-  cout << dynamic_programming.LCSLength("BDCABD", "ABCBDAB") << endl;
+  cout << dynamic_programming.LIS({3, 1, 5, 3, 7, 9}) << endl;
   return 0;
 }
