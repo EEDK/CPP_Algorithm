@@ -40,3 +40,27 @@ void Graph::BFS(int start) {
 
   cout << endl;
 }
+void Graph::DFS(int start) {
+  vector<bool> visited(V, false);
+  stack<int> s;
+
+  visited[start] = true;
+  s.push(start);
+
+  cout << "DFS Order: ";
+
+  while (!s.empty()) {
+    int current = s.top();
+    cout << current << " ";
+    s.pop();
+
+    for (int neighbor : adj[current]) {
+      if (!visited[neighbor]) {
+        visited[neighbor] = true;
+        s.push(neighbor);
+      }
+    }
+  }
+
+  cout << endl;
+}

@@ -7,12 +7,14 @@
 
 #include <vector>
 #include <queue>
+#include <stack>
 
 class Graph {
  public:
   Graph(int vertices);
   void addEdge(int u, int v);
   void BFS(int start);
+  void DFS(int start);
 
  private:
   int V; // 노드의 개수

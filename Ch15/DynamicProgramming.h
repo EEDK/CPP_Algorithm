@@ -21,6 +21,8 @@ class DynamicProgramming {
 
   int LIS(vector<int> inputs);
 
+  string LongPalindromeSubsequence(string x);
+
  private:
   int Max(int a, int b);
   int MemoizedCutRodAux(int p[], int n, int r[]);

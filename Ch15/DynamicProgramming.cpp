@@ -137,7 +137,15 @@ int DynamicProgramming::LIS(vector<int> inputs) {
     }
   }
 
-  return *max_element(dp.begin(), dp.end());
+  return dp[0];
+}
+
+// 입력값 -> character -> carac (내부에서 최장길이 회문 리턴)
+string DynamicProgramming::LongPalindromeSubsequence(string x) {
+  int n = x.size();
+  vector<int> dp(n, 0);
+  
+  return "1";
 }
 
 
