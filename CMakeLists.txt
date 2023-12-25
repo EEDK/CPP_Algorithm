@@ -6,8 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(Algorithm main.cpp
         SortAlgorithm.h
         SortAlgorithm.cpp
-        DivideAndConquer.cpp
-        DivideAndConquer.h
+        Ch4/DivideAndConquer.cpp
+        Ch4/DivideAndConquer.h
         HeapSort.cpp
         HeapSort.h
         QuickSort.cpp
@@ -30,4 +30,6 @@ add_executable(Algorithm main.cpp
         Ch16/Huffman.h
         Ch22/Graph.cpp
         Ch22/Graph.h
+        Ch27/MultiThreadAlgorithm.cpp
+        Ch27/MultiThreadAlgorithm.h
 )

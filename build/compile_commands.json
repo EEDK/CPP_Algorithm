@@ -1,0 +1,86 @@
+[
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\main.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\main.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/main.cpp",
+  "output": "CMakeFiles/Algorithm.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\SortAlgorithm.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\SortAlgorithm.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/SortAlgorithm.cpp",
+  "output": "CMakeFiles/Algorithm.dir/SortAlgorithm.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch4\\DivideAndConquer.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch4\\DivideAndConquer.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/Ch4/DivideAndConquer.cpp",
+  "output": "CMakeFiles/Algorithm.dir/Ch4/DivideAndConquer.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\HeapSort.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\HeapSort.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/HeapSort.cpp",
+  "output": "CMakeFiles/Algorithm.dir/HeapSort.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\QuickSort.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\QuickSort.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/QuickSort.cpp",
+  "output": "CMakeFiles/Algorithm.dir/QuickSort.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch8\\LinearSort.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch8\\LinearSort.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/Ch8/LinearSort.cpp",
+  "output": "CMakeFiles/Algorithm.dir/Ch8/LinearSort.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch9\\OrderStatistic.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch9\\OrderStatistic.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/Ch9/OrderStatistic.cpp",
+  "output": "CMakeFiles/Algorithm.dir/Ch9/OrderStatistic.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch10\\DataStruct.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch10\\DataStruct.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/Ch10/DataStruct.cpp",
+  "output": "CMakeFiles/Algorithm.dir/Ch10/DataStruct.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch15\\DynamicProgramming.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch15\\DynamicProgramming.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/Ch15/DynamicProgramming.cpp",
+  "output": "CMakeFiles/Algorithm.dir/Ch15/DynamicProgramming.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch12\\BinaryTree.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch12\\BinaryTree.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/Ch12/BinaryTree.cpp",
+  "output": "CMakeFiles/Algorithm.dir/Ch12/BinaryTree.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch16\\Greedy.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch16\\Greedy.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/Ch16/Greedy.cpp",
+  "output": "CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch16\\Huffman.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch16\\Huffman.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/Ch16/Huffman.cpp",
+  "output": "CMakeFiles/Algorithm.dir/Ch16/Huffman.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch22\\Graph.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch22\\Graph.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/Ch22/Graph.cpp",
+  "output": "CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/CLang/Algorithm/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch27\\MultiThreadAlgorithm.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch27\\MultiThreadAlgorithm.cpp",
+  "file": "D:/Workspace/CLang/Algorithm/Ch27/MultiThreadAlgorithm.cpp",
+  "output": "CMakeFiles/Algorithm.dir/Ch27/MultiThreadAlgorithm.cpp.obj"
+}
+]
