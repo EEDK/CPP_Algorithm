@@ -4,10 +4,11 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   MultiThreadAlgorithm multi_thread_algorithm;
 
-  cout << multi_thread_algorithm.P_Fib(5) << endl;
+  cout << "Hello world " << endl;
 
   return 0;
 }
