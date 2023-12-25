@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
   // Create a graph with 4 vertices
   MST mst(4);
 

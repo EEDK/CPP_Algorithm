@@ -128,317 +128,29 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-Ch10/DataStruct.obj: Ch10/DataStruct.cpp.obj
-.PHONY : Ch10/DataStruct.obj
+Ch23_MinimumSpanning_Tree/MST.obj: Ch23_MinimumSpanning_Tree/MST.cpp.obj
+.PHONY : Ch23_MinimumSpanning_Tree/MST.obj
 
 # target to build an object file
-Ch10/DataStruct.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch10/DataStruct.cpp.obj
-.PHONY : Ch10/DataStruct.cpp.obj
+Ch23_MinimumSpanning_Tree/MST.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.obj
+.PHONY : Ch23_MinimumSpanning_Tree/MST.cpp.obj
 
-Ch10/DataStruct.i: Ch10/DataStruct.cpp.i
-.PHONY : Ch10/DataStruct.i
-
-# target to preprocess a source file
-Ch10/DataStruct.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch10/DataStruct.cpp.i
-.PHONY : Ch10/DataStruct.cpp.i
-
-Ch10/DataStruct.s: Ch10/DataStruct.cpp.s
-.PHONY : Ch10/DataStruct.s
-
-# target to generate assembly for a file
-Ch10/DataStruct.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch10/DataStruct.cpp.s
-.PHONY : Ch10/DataStruct.cpp.s
-
-Ch12/BinaryTree.obj: Ch12/BinaryTree.cpp.obj
-.PHONY : Ch12/BinaryTree.obj
-
-# target to build an object file
-Ch12/BinaryTree.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch12/BinaryTree.cpp.obj
-.PHONY : Ch12/BinaryTree.cpp.obj
-
-Ch12/BinaryTree.i: Ch12/BinaryTree.cpp.i
-.PHONY : Ch12/BinaryTree.i
+Ch23_MinimumSpanning_Tree/MST.i: Ch23_MinimumSpanning_Tree/MST.cpp.i
+.PHONY : Ch23_MinimumSpanning_Tree/MST.i
 
 # target to preprocess a source file
-Ch12/BinaryTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch12/BinaryTree.cpp.i
-.PHONY : Ch12/BinaryTree.cpp.i
+Ch23_MinimumSpanning_Tree/MST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.i
+.PHONY : Ch23_MinimumSpanning_Tree/MST.cpp.i
 
-Ch12/BinaryTree.s: Ch12/BinaryTree.cpp.s
-.PHONY : Ch12/BinaryTree.s
-
-# target to generate assembly for a file
-Ch12/BinaryTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch12/BinaryTree.cpp.s
-.PHONY : Ch12/BinaryTree.cpp.s
-
-Ch15/DynamicProgramming.obj: Ch15/DynamicProgramming.cpp.obj
-.PHONY : Ch15/DynamicProgramming.obj
-
-# target to build an object file
-Ch15/DynamicProgramming.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch15/DynamicProgramming.cpp.obj
-.PHONY : Ch15/DynamicProgramming.cpp.obj
-
-Ch15/DynamicProgramming.i: Ch15/DynamicProgramming.cpp.i
-.PHONY : Ch15/DynamicProgramming.i
-
-# target to preprocess a source file
-Ch15/DynamicProgramming.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch15/DynamicProgramming.cpp.i
-.PHONY : Ch15/DynamicProgramming.cpp.i
-
-Ch15/DynamicProgramming.s: Ch15/DynamicProgramming.cpp.s
-.PHONY : Ch15/DynamicProgramming.s
+Ch23_MinimumSpanning_Tree/MST.s: Ch23_MinimumSpanning_Tree/MST.cpp.s
+.PHONY : Ch23_MinimumSpanning_Tree/MST.s
 
 # target to generate assembly for a file
-Ch15/DynamicProgramming.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch15/DynamicProgramming.cpp.s
-.PHONY : Ch15/DynamicProgramming.cpp.s
-
-Ch16/Greedy.obj: Ch16/Greedy.cpp.obj
-.PHONY : Ch16/Greedy.obj
-
-# target to build an object file
-Ch16/Greedy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj
-.PHONY : Ch16/Greedy.cpp.obj
-
-Ch16/Greedy.i: Ch16/Greedy.cpp.i
-.PHONY : Ch16/Greedy.i
-
-# target to preprocess a source file
-Ch16/Greedy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.i
-.PHONY : Ch16/Greedy.cpp.i
-
-Ch16/Greedy.s: Ch16/Greedy.cpp.s
-.PHONY : Ch16/Greedy.s
-
-# target to generate assembly for a file
-Ch16/Greedy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.s
-.PHONY : Ch16/Greedy.cpp.s
-
-Ch16/Huffman.obj: Ch16/Huffman.cpp.obj
-.PHONY : Ch16/Huffman.obj
-
-# target to build an object file
-Ch16/Huffman.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch16/Huffman.cpp.obj
-.PHONY : Ch16/Huffman.cpp.obj
-
-Ch16/Huffman.i: Ch16/Huffman.cpp.i
-.PHONY : Ch16/Huffman.i
-
-# target to preprocess a source file
-Ch16/Huffman.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch16/Huffman.cpp.i
-.PHONY : Ch16/Huffman.cpp.i
-
-Ch16/Huffman.s: Ch16/Huffman.cpp.s
-.PHONY : Ch16/Huffman.s
-
-# target to generate assembly for a file
-Ch16/Huffman.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch16/Huffman.cpp.s
-.PHONY : Ch16/Huffman.cpp.s
-
-Ch22/Graph.obj: Ch22/Graph.cpp.obj
-.PHONY : Ch22/Graph.obj
-
-# target to build an object file
-Ch22/Graph.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj
-.PHONY : Ch22/Graph.cpp.obj
-
-Ch22/Graph.i: Ch22/Graph.cpp.i
-.PHONY : Ch22/Graph.i
-
-# target to preprocess a source file
-Ch22/Graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.i
-.PHONY : Ch22/Graph.cpp.i
-
-Ch22/Graph.s: Ch22/Graph.cpp.s
-.PHONY : Ch22/Graph.s
-
-# target to generate assembly for a file
-Ch22/Graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.s
-.PHONY : Ch22/Graph.cpp.s
-
-Ch27/MultiThreadAlgorithm.obj: Ch27/MultiThreadAlgorithm.cpp.obj
-.PHONY : Ch27/MultiThreadAlgorithm.obj
-
-# target to build an object file
-Ch27/MultiThreadAlgorithm.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch27/MultiThreadAlgorithm.cpp.obj
-.PHONY : Ch27/MultiThreadAlgorithm.cpp.obj
-
-Ch27/MultiThreadAlgorithm.i: Ch27/MultiThreadAlgorithm.cpp.i
-.PHONY : Ch27/MultiThreadAlgorithm.i
-
-# target to preprocess a source file
-Ch27/MultiThreadAlgorithm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch27/MultiThreadAlgorithm.cpp.i
-.PHONY : Ch27/MultiThreadAlgorithm.cpp.i
-
-Ch27/MultiThreadAlgorithm.s: Ch27/MultiThreadAlgorithm.cpp.s
-.PHONY : Ch27/MultiThreadAlgorithm.s
-
-# target to generate assembly for a file
-Ch27/MultiThreadAlgorithm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch27/MultiThreadAlgorithm.cpp.s
-.PHONY : Ch27/MultiThreadAlgorithm.cpp.s
-
-Ch4/DivideAndConquer.obj: Ch4/DivideAndConquer.cpp.obj
-.PHONY : Ch4/DivideAndConquer.obj
-
-# target to build an object file
-Ch4/DivideAndConquer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch4/DivideAndConquer.cpp.obj
-.PHONY : Ch4/DivideAndConquer.cpp.obj
-
-Ch4/DivideAndConquer.i: Ch4/DivideAndConquer.cpp.i
-.PHONY : Ch4/DivideAndConquer.i
-
-# target to preprocess a source file
-Ch4/DivideAndConquer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch4/DivideAndConquer.cpp.i
-.PHONY : Ch4/DivideAndConquer.cpp.i
-
-Ch4/DivideAndConquer.s: Ch4/DivideAndConquer.cpp.s
-.PHONY : Ch4/DivideAndConquer.s
-
-# target to generate assembly for a file
-Ch4/DivideAndConquer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch4/DivideAndConquer.cpp.s
-.PHONY : Ch4/DivideAndConquer.cpp.s
-
-Ch8/LinearSort.obj: Ch8/LinearSort.cpp.obj
-.PHONY : Ch8/LinearSort.obj
-
-# target to build an object file
-Ch8/LinearSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch8/LinearSort.cpp.obj
-.PHONY : Ch8/LinearSort.cpp.obj
-
-Ch8/LinearSort.i: Ch8/LinearSort.cpp.i
-.PHONY : Ch8/LinearSort.i
-
-# target to preprocess a source file
-Ch8/LinearSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch8/LinearSort.cpp.i
-.PHONY : Ch8/LinearSort.cpp.i
-
-Ch8/LinearSort.s: Ch8/LinearSort.cpp.s
-.PHONY : Ch8/LinearSort.s
-
-# target to generate assembly for a file
-Ch8/LinearSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch8/LinearSort.cpp.s
-.PHONY : Ch8/LinearSort.cpp.s
-
-Ch9/OrderStatistic.obj: Ch9/OrderStatistic.cpp.obj
-.PHONY : Ch9/OrderStatistic.obj
-
-# target to build an object file
-Ch9/OrderStatistic.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch9/OrderStatistic.cpp.obj
-.PHONY : Ch9/OrderStatistic.cpp.obj
-
-Ch9/OrderStatistic.i: Ch9/OrderStatistic.cpp.i
-.PHONY : Ch9/OrderStatistic.i
-
-# target to preprocess a source file
-Ch9/OrderStatistic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch9/OrderStatistic.cpp.i
-.PHONY : Ch9/OrderStatistic.cpp.i
-
-Ch9/OrderStatistic.s: Ch9/OrderStatistic.cpp.s
-.PHONY : Ch9/OrderStatistic.s
-
-# target to generate assembly for a file
-Ch9/OrderStatistic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch9/OrderStatistic.cpp.s
-.PHONY : Ch9/OrderStatistic.cpp.s
-
-HeapSort.obj: HeapSort.cpp.obj
-.PHONY : HeapSort.obj
-
-# target to build an object file
-HeapSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/HeapSort.cpp.obj
-.PHONY : HeapSort.cpp.obj
-
-HeapSort.i: HeapSort.cpp.i
-.PHONY : HeapSort.i
-
-# target to preprocess a source file
-HeapSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/HeapSort.cpp.i
-.PHONY : HeapSort.cpp.i
-
-HeapSort.s: HeapSort.cpp.s
-.PHONY : HeapSort.s
-
-# target to generate assembly for a file
-HeapSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/HeapSort.cpp.s
-.PHONY : HeapSort.cpp.s
-
-QuickSort.obj: QuickSort.cpp.obj
-.PHONY : QuickSort.obj
-
-# target to build an object file
-QuickSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/QuickSort.cpp.obj
-.PHONY : QuickSort.cpp.obj
-
-QuickSort.i: QuickSort.cpp.i
-.PHONY : QuickSort.i
-
-# target to preprocess a source file
-QuickSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/QuickSort.cpp.i
-.PHONY : QuickSort.cpp.i
-
-QuickSort.s: QuickSort.cpp.s
-.PHONY : QuickSort.s
-
-# target to generate assembly for a file
-QuickSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/QuickSort.cpp.s
-.PHONY : QuickSort.cpp.s
-
-SortAlgorithm.obj: SortAlgorithm.cpp.obj
-.PHONY : SortAlgorithm.obj
-
-# target to build an object file
-SortAlgorithm.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/SortAlgorithm.cpp.obj
-.PHONY : SortAlgorithm.cpp.obj
-
-SortAlgorithm.i: SortAlgorithm.cpp.i
-.PHONY : SortAlgorithm.i
-
-# target to preprocess a source file
-SortAlgorithm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/SortAlgorithm.cpp.i
-.PHONY : SortAlgorithm.cpp.i
-
-SortAlgorithm.s: SortAlgorithm.cpp.s
-.PHONY : SortAlgorithm.s
-
-# target to generate assembly for a file
-SortAlgorithm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/SortAlgorithm.cpp.s
-.PHONY : SortAlgorithm.cpp.s
+Ch23_MinimumSpanning_Tree/MST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.s
+.PHONY : Ch23_MinimumSpanning_Tree/MST.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -473,45 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Algorithm
-	@echo ... Ch10/DataStruct.obj
-	@echo ... Ch10/DataStruct.i
-	@echo ... Ch10/DataStruct.s
-	@echo ... Ch12/BinaryTree.obj
-	@echo ... Ch12/BinaryTree.i
-	@echo ... Ch12/BinaryTree.s
-	@echo ... Ch15/DynamicProgramming.obj
-	@echo ... Ch15/DynamicProgramming.i
-	@echo ... Ch15/DynamicProgramming.s
-	@echo ... Ch16/Greedy.obj
-	@echo ... Ch16/Greedy.i
-	@echo ... Ch16/Greedy.s
-	@echo ... Ch16/Huffman.obj
-	@echo ... Ch16/Huffman.i
-	@echo ... Ch16/Huffman.s
-	@echo ... Ch22/Graph.obj
-	@echo ... Ch22/Graph.i
-	@echo ... Ch22/Graph.s
-	@echo ... Ch27/MultiThreadAlgorithm.obj
-	@echo ... Ch27/MultiThreadAlgorithm.i
-	@echo ... Ch27/MultiThreadAlgorithm.s
-	@echo ... Ch4/DivideAndConquer.obj
-	@echo ... Ch4/DivideAndConquer.i
-	@echo ... Ch4/DivideAndConquer.s
-	@echo ... Ch8/LinearSort.obj
-	@echo ... Ch8/LinearSort.i
-	@echo ... Ch8/LinearSort.s
-	@echo ... Ch9/OrderStatistic.obj
-	@echo ... Ch9/OrderStatistic.i
-	@echo ... Ch9/OrderStatistic.s
-	@echo ... HeapSort.obj
-	@echo ... HeapSort.i
-	@echo ... HeapSort.s
-	@echo ... QuickSort.obj
-	@echo ... QuickSort.i
-	@echo ... QuickSort.s
-	@echo ... SortAlgorithm.obj
-	@echo ... SortAlgorithm.i
-	@echo ... SortAlgorithm.s
+	@echo ... Ch23_MinimumSpanning_Tree/MST.obj
+	@echo ... Ch23_MinimumSpanning_Tree/MST.i
+	@echo ... Ch23_MinimumSpanning_Tree/MST.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
