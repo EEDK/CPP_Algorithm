@@ -4,14 +4,14 @@ project(Algorithm)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Algorithm main.cpp
-        SortAlgorithm.h
-        SortAlgorithm.cpp
+        Ch8/SortAlgorithm.h
+        Ch8/SortAlgorithm.cpp
         Ch4/DivideAndConquer.cpp
         Ch4/DivideAndConquer.h
-        HeapSort.cpp
-        HeapSort.h
-        QuickSort.cpp
-        QuickSort.h
+        Ch8/HeapSort.cpp
+        Ch8/HeapSort.h
+        Ch8/QuickSort.cpp
+        Ch8/QuickSort.h
         Ch8/LinearSort.cpp
         Ch8/LinearSort.h
         Ch8/LinearSort.h
