@@ -1,29 +1,33 @@
+#include "CH22/Graph.h"
+#include "Ch16/Greedy.h"
+#include <vector>
 #include <iostream>
-#include "Ch23_MinimumSpanning_Tree/MST.h"
 
 using namespace std;
 
-int main()
-{
-  // Create a graph with 4 vertices
-  MST mst(4);
+int main() {
+  Graph graph(7);
 
-  // Add edges to the graph
-  mst.addEdge(0, 1, 2);
-  mst.addEdge(0, 2, 3);
-  mst.addEdge(1, 2, 1);
-  mst.addEdge(1, 3, 4);
-  mst.addEdge(2, 3, 5);
+  graph.addEdge(0, 1);
+  graph.addEdge(0, 2);
+  graph.addEdge(0, 3);
+  graph.addEdge(1, 0);
+  graph.addEdge(1, 2);
+  graph.addEdge(2, 3);
+  graph.addEdge(2, 4);
+  graph.addEdge(3, 4);
+  graph.addEdge(4, 5);
+  graph.addEdge(4, 6);
 
-  // Find and print the minimum spanning tree using Prim's algorithm
-  std::cout << "Prim's Algorithm:\n";
-  mst.primMST();
+  graph.BFS(0);
+  graph.DFS(0);
 
-  std::cout << "\n--------------------------------\n";
+  Greedy greedy;
 
-  // Find and print the minimum spanning tree using Kruskal's algorithm
-  std::cout << "Kruskal's Algorithm:\n";
-  mst.kruskalMST();
+  vector<int> inputs{1, 8, 6, 2, 5, 4, 8, 3, 7};
+  if (greedy.maxArea(inputs) == 49) {
+    cout << "OK" << endl;
+  }
 
   return 0;
 }

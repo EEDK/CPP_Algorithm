@@ -12,6 +12,10 @@ class Greedy {
 
  public:
   vector<int> GreedyActivitySelector(vector<int> StartTime, vector<int> FinishTime);
+
+  // https://leetcode.com/problems/container-with-most-water/
+  int maxArea(vector<int> &height);
+
 };
 
 #endif //ALGORITHM_CH16_GREEDY_H_

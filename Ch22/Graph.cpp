@@ -6,6 +6,7 @@
 #include <iostream>
 
 using namespace std;
+
 Graph::Graph(int vertices) : V(vertices) {
   adj.resize(V);
 }
@@ -40,6 +41,7 @@ void Graph::BFS(int start) {
 
   cout << endl;
 }
+
 void Graph::DFS(int start) {
   vector<bool> visited(V, false);
   stack<int> s;
