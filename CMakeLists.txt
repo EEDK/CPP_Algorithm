@@ -10,4 +10,6 @@ add_executable(Algorithm main.cpp
         Ch22/Graph.h
         Ch16/Greedy.h
         Ch16/Greedy.cpp
+        Ch15/MatrixChainMultiply.h
+        Ch15/MatrixChainMultiply.cpp
 )
