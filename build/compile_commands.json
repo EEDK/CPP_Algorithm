@@ -1,8 +1,0 @@
-[
-{
-  "directory": "D:/Workspace/CLang/Algorithm/build",
-  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\main.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\main.cpp",
-  "file": "D:/Workspace/CLang/Algorithm/main.cpp",
-  "output": "CMakeFiles/Algorithm.dir/main.cpp.obj"
-}
-]
