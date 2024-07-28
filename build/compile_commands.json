@@ -4,23 +4,5 @@
   "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\main.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\main.cpp",
   "file": "D:/Workspace/CLang/Algorithm/main.cpp",
   "output": "CMakeFiles/Algorithm.dir/main.cpp.obj"
-},
-{
-  "directory": "D:/Workspace/CLang/Algorithm/build",
-  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch23_MinimumSpanning_Tree\\MST.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch23_MinimumSpanning_Tree\\MST.cpp",
-  "file": "D:/Workspace/CLang/Algorithm/Ch23_MinimumSpanning_Tree/MST.cpp",
-  "output": "CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.obj"
-},
-{
-  "directory": "D:/Workspace/CLang/Algorithm/build",
-  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch22\\Graph.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch22\\Graph.cpp",
-  "file": "D:/Workspace/CLang/Algorithm/Ch22/Graph.cpp",
-  "output": "CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj"
-},
-{
-  "directory": "D:/Workspace/CLang/Algorithm/build",
-  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\Algorithm.dir\\Ch16\\Greedy.cpp.obj -c D:\\Workspace\\CLang\\Algorithm\\Ch16\\Greedy.cpp",
-  "file": "D:/Workspace/CLang/Algorithm/Ch16/Greedy.cpp",
-  "output": "CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj"
 }
 ]

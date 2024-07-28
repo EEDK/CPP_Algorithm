@@ -128,78 +128,6 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
-Ch16/Greedy.obj: Ch16/Greedy.cpp.obj
-.PHONY : Ch16/Greedy.obj
-
-# target to build an object file
-Ch16/Greedy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj
-.PHONY : Ch16/Greedy.cpp.obj
-
-Ch16/Greedy.i: Ch16/Greedy.cpp.i
-.PHONY : Ch16/Greedy.i
-
-# target to preprocess a source file
-Ch16/Greedy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.i
-.PHONY : Ch16/Greedy.cpp.i
-
-Ch16/Greedy.s: Ch16/Greedy.cpp.s
-.PHONY : Ch16/Greedy.s
-
-# target to generate assembly for a file
-Ch16/Greedy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.s
-.PHONY : Ch16/Greedy.cpp.s
-
-Ch22/Graph.obj: Ch22/Graph.cpp.obj
-.PHONY : Ch22/Graph.obj
-
-# target to build an object file
-Ch22/Graph.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj
-.PHONY : Ch22/Graph.cpp.obj
-
-Ch22/Graph.i: Ch22/Graph.cpp.i
-.PHONY : Ch22/Graph.i
-
-# target to preprocess a source file
-Ch22/Graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.i
-.PHONY : Ch22/Graph.cpp.i
-
-Ch22/Graph.s: Ch22/Graph.cpp.s
-.PHONY : Ch22/Graph.s
-
-# target to generate assembly for a file
-Ch22/Graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.s
-.PHONY : Ch22/Graph.cpp.s
-
-Ch23_MinimumSpanning_Tree/MST.obj: Ch23_MinimumSpanning_Tree/MST.cpp.obj
-.PHONY : Ch23_MinimumSpanning_Tree/MST.obj
-
-# target to build an object file
-Ch23_MinimumSpanning_Tree/MST.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.obj
-.PHONY : Ch23_MinimumSpanning_Tree/MST.cpp.obj
-
-Ch23_MinimumSpanning_Tree/MST.i: Ch23_MinimumSpanning_Tree/MST.cpp.i
-.PHONY : Ch23_MinimumSpanning_Tree/MST.i
-
-# target to preprocess a source file
-Ch23_MinimumSpanning_Tree/MST.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.i
-.PHONY : Ch23_MinimumSpanning_Tree/MST.cpp.i
-
-Ch23_MinimumSpanning_Tree/MST.s: Ch23_MinimumSpanning_Tree/MST.cpp.s
-.PHONY : Ch23_MinimumSpanning_Tree/MST.s
-
-# target to generate assembly for a file
-Ch23_MinimumSpanning_Tree/MST.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm.dir\build.make CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.s
-.PHONY : Ch23_MinimumSpanning_Tree/MST.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -233,15 +161,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Algorithm
-	@echo ... Ch16/Greedy.obj
-	@echo ... Ch16/Greedy.i
-	@echo ... Ch16/Greedy.s
-	@echo ... Ch22/Graph.obj
-	@echo ... Ch22/Graph.i
-	@echo ... Ch22/Graph.s
-	@echo ... Ch23_MinimumSpanning_Tree/MST.obj
-	@echo ... Ch23_MinimumSpanning_Tree/MST.i
-	@echo ... Ch23_MinimumSpanning_Tree/MST.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

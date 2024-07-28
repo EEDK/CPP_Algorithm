@@ -1,41 +1,21 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <numeric>
 
-using namespace std;
+template<typename T>
 
-int solution(vector<int> inputs, int target) {
-    int start = 0;
-    int end = *max_element(inputs.begin(), inputs.end());
-    int result = 0;
+auto compute_waiting_times(std::vector<T> &service_times) {
+  std::vector<T> W(service_times.size());
+  W[0] = 0;
 
-    while (start <= end) {
-        long long sum = 0;
-        int mid = (start + end) / 2;
-        for (auto i = 0; i < inputs.size(); i++) {
-            if (inputs[i] > mid) sum += inputs[i] - mid;
-        }
-        if (sum >= target) {
-            result = mid;
-            start = mid + 1;
-        } else {
-            end = mid - 1;
-        }
-    }
-    return result;
+  for (auto i = 1; i < service_times.size(); i++)
+    W[i] = W[i - 1] + service_times[i - 1];
+
+  return W;
 }
 
 int main() {
-//    freopen("./input.txt", "r", stdin);
-    int N, Target;
-    cin >> N >> Target;
-    vector<int> inputs;
-
-    for (int i = 0; i < N; i++) {
-        int tmp;
-        cin >> tmp;
-        inputs.push_back(tmp);
-    }
-
-    cout << solution(inputs, Target) << endl;
-
-    return 0;
+  std::cout << "2" << std::endl;
+  return 0;
 }

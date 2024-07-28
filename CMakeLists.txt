@@ -4,12 +4,5 @@ project(Algorithm)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Algorithm main.cpp
-        Ch23_MinimumSpanning_Tree/MST.h
-        Ch23_MinimumSpanning_Tree/MST.cpp
-        Ch22/Graph.cpp
-        Ch22/Graph.h
-        Ch16/Greedy.h
-        Ch16/Greedy.cpp
-        Ch15/MatrixChainMultiply.h
-        Ch15/MatrixChainMultiply.cpp
-)
+        Ch4/DivideAndConquer.cpp
+        Ch23_MinimumSpanning_Tree/MST.cpp)

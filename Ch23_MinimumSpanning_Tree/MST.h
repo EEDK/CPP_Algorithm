@@ -11,18 +11,22 @@
 #include <algorithm>
 
 class MST {
- public:
-  MST(int vertices);
-  void addEdge(int u, int v, int weight);
-  void primMST();
-  void kruskalMST();
+public:
+    MST(int vertices);
 
- private:
-  int find(std::vector<int> &parent, int i);
-  void unionSets(std::vector<int> &parent, int x, int y);
+    void addEdge(int u, int v, int weight);
 
-  int vertices;
-  std::vector<std::vector<int>> graph;
+    void primMST();
+
+    void kruskalMST();
+
+private:
+    int find(std::vector<int> &parent, int i);
+
+    void unionSets(std::vector<int> &parent, int x, int y);
+
+    int vertices;
+    std::vector<std::vector<int>> graph;
 };
 
 #endif //ALGORITHM_CH23_MINIMUMSPANNIN_TREE_MST_H_

@@ -82,67 +82,19 @@ CMakeFiles/Algorithm.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/main.cpp.s"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\CLang\Algorithm\main.cpp -o CMakeFiles\Algorithm.dir\main.cpp.s
 
-CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.obj: CMakeFiles/Algorithm.dir/flags.make
-CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.obj: D:/Workspace/CLang/Algorithm/Ch23_MinimumSpanning_Tree/MST.cpp
-CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.obj: CMakeFiles/Algorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Workspace\CLang\Algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.obj"
-	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.obj -MF CMakeFiles\Algorithm.dir\Ch23_MinimumSpanning_Tree\MST.cpp.obj.d -o CMakeFiles\Algorithm.dir\Ch23_MinimumSpanning_Tree\MST.cpp.obj -c D:\Workspace\CLang\Algorithm\Ch23_MinimumSpanning_Tree\MST.cpp
-
-CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.i"
-	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\CLang\Algorithm\Ch23_MinimumSpanning_Tree\MST.cpp > CMakeFiles\Algorithm.dir\Ch23_MinimumSpanning_Tree\MST.cpp.i
-
-CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.s"
-	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\CLang\Algorithm\Ch23_MinimumSpanning_Tree\MST.cpp -o CMakeFiles\Algorithm.dir\Ch23_MinimumSpanning_Tree\MST.cpp.s
-
-CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj: CMakeFiles/Algorithm.dir/flags.make
-CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj: D:/Workspace/CLang/Algorithm/Ch22/Graph.cpp
-CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj: CMakeFiles/Algorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Workspace\CLang\Algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj"
-	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj -MF CMakeFiles\Algorithm.dir\Ch22\Graph.cpp.obj.d -o CMakeFiles\Algorithm.dir\Ch22\Graph.cpp.obj -c D:\Workspace\CLang\Algorithm\Ch22\Graph.cpp
-
-CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.i"
-	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\CLang\Algorithm\Ch22\Graph.cpp > CMakeFiles\Algorithm.dir\Ch22\Graph.cpp.i
-
-CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.s"
-	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\CLang\Algorithm\Ch22\Graph.cpp -o CMakeFiles\Algorithm.dir\Ch22\Graph.cpp.s
-
-CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj: CMakeFiles/Algorithm.dir/flags.make
-CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj: D:/Workspace/CLang/Algorithm/Ch16/Greedy.cpp
-CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj: CMakeFiles/Algorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Workspace\CLang\Algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj"
-	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj -MF CMakeFiles\Algorithm.dir\Ch16\Greedy.cpp.obj.d -o CMakeFiles\Algorithm.dir\Ch16\Greedy.cpp.obj -c D:\Workspace\CLang\Algorithm\Ch16\Greedy.cpp
-
-CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.i"
-	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\CLang\Algorithm\Ch16\Greedy.cpp > CMakeFiles\Algorithm.dir\Ch16\Greedy.cpp.i
-
-CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.s"
-	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\CLang\Algorithm\Ch16\Greedy.cpp -o CMakeFiles\Algorithm.dir\Ch16\Greedy.cpp.s
-
 # Object files for target Algorithm
 Algorithm_OBJECTS = \
-"CMakeFiles/Algorithm.dir/main.cpp.obj" \
-"CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.obj" \
-"CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj" \
-"CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj"
+"CMakeFiles/Algorithm.dir/main.cpp.obj"
 
 # External object files for target Algorithm
 Algorithm_EXTERNAL_OBJECTS =
 
 Algorithm.exe: CMakeFiles/Algorithm.dir/main.cpp.obj
-Algorithm.exe: CMakeFiles/Algorithm.dir/Ch23_MinimumSpanning_Tree/MST.cpp.obj
-Algorithm.exe: CMakeFiles/Algorithm.dir/Ch22/Graph.cpp.obj
-Algorithm.exe: CMakeFiles/Algorithm.dir/Ch16/Greedy.cpp.obj
 Algorithm.exe: CMakeFiles/Algorithm.dir/build.make
 Algorithm.exe: CMakeFiles/Algorithm.dir/linkLibs.rsp
 Algorithm.exe: CMakeFiles/Algorithm.dir/objects1.rsp
 Algorithm.exe: CMakeFiles/Algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Workspace\CLang\Algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Algorithm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Workspace\CLang\Algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Algorithm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Algorithm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
